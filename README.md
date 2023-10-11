@@ -6,7 +6,7 @@ Uma aplicação que exibe a conversão de moedas para real brasilleiro (BRL), co
 
 </br>
 
-<img width="600" src="https://github.com/malufell/career-plan/assets/62160705/3b2346c8-7fc6-453f-a77e-4d636f25fd83" />
+<img width="600" src="https://github.com/malufell/angular-currency-converter/assets/62160705/a51c398c-2707-42f4-9e76-66c194518f30" />
 
 ## 💻 Sobre o projeto
 
@@ -72,4 +72,4 @@ Ao rodar os testes unitários, uma nova janela do navegador será aberta com o r
 
 ## 📱Disponível também na versão Mobile:
 
-<img width="300" src="https://github.com/malufell/career-plan/assets/62160705/e4f1dc85-b7df-4aa6-94e9-14f04fe50077"/>
+<img width="300" src="https://github.com/malufell/angular-currency-converter/assets/62160705/c6891bd7-0d6a-4a7c-a5a1-74e7207d9dce"/>

@@ -1,0 +1,10 @@
+<div class="dashboard">
+  <div class="dashboard__wrapper">
+    <app-currency-card
+      *ngFor="let currency of currenciesMapper"
+      [currencyDetails]="currency"
+      [isLoading]="isLoading"
+      (reload)="getCurrency(currency.code)"
+    />
+  </div>
+</div>

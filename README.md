@@ -1,27 +1,69 @@
-# CurrencyConverter
+# Currency Converter
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.5.
+Uma aplicação que exibe a conversão de moedas para real brasilleiro (BRL), contemplando Dólar Canadense, Peso Argentino e Libra Esterlina!
 
-## Development server
+▶️ Está no ar: https://malufell.github.io/angular-currency-converter/
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+</br>
 
-## Code scaffolding
+<img width="600" src="https://github.com/malufell/career-plan/assets/62160705/3b2346c8-7fc6-453f-a77e-4d636f25fd83" />
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 💻 Sobre o projeto
 
-## Build
+- Desenvolvido com Angular versão 16;
+- Utiliza SASS para os estilos seguindo o padrão BEM para estrutura do CSS;
+- ESLint e prettier para formatação do código;
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🧭 Como executar o projeto localmente
 
-## Running unit tests
+Fique atento aos pré-requisitos que devem estar instalados na sua máquina:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- **Node.js**, download disponível [aqui](https://nodejs.org/en)
+- **GIT**, disponível para donwload [aqui](https://git-scm.com/)
+- **Angular CLI**, instale globalmente usando o seguinte comando no terminal: `npm install -g @angular/cli` ou `yarn global add @angular/cli`
 
-## Running end-to-end tests
+### Passos para rodar o projeto:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. faça o clone do projeto, executando o comando: `git clone https://github.com/malufell/angular-currency-converter.git`
+2. entre na pasta do projeto, comando: `cd angular-currency-converter`
+3. instale as dependências do projeto, comando: `npm install`
+4. inicie o servidor de desenvolvimento, comando: `ng serve`
+5. no navegador acesse o endereço `http://localhost:4200` para ver o projeto em ação!
 
-## Further help
+### Comandos úteis:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Compilar o Projeto: `ng build`
+- Executar Testes: `ng test`
+- Ajuda do Angular CLI: `ng help`
+
+</br>
+
+## 📄 Documentação de apoio sobre a aplicação
+
+- O app possui duas features principais dentro da pasta `components`:
+  - o card que está documentado [aqui](https://github.com/malufell/angular-currency-converter/tree/main/src/app/components/currency-card) e
+  - o dashboard documentado [aqui](https://github.com/malufell/angular-currency-converter/tree/main/src/app/components/dashboard).
+
+📂 Estruturação do código fonte da aplicação (src):
+
+```
+/angular-currency-converter
+├── /src/                           # Código-fonte da aplicação
+│   ├── /app/                       # Módulos e componentes principais
+│   │   ├── /components/            # Componentes
+│   │   ├── /services/              # Serviços para integração com API
+│   │   ├── /models/                # Modelos de dados da aplicação
+│   │   ├── app.component           # Componente principal da aplicação
+│   │   └── app.module.ts           # Módulo principal da aplicação
+│   │
+│   ├── /assets/                    # Arquivos estáticos (imagens e estilos)
+│   ├── /environments/              # Urls externas utilizadas na aplicação (API)
+│   ├── /styles/                    # Arquivos de estilo (estilo global e variáveis SASS)
+│   └── index.html                  # Página HTML principal
+│
+└── arquivos de configuração...     # Configurações do projeto e dependências
+```
+
+## 📱Disponível também na versão Mobile:
+
+<img width="300" src="https://github.com/malufell/career-plan/assets/62160705/e4f1dc85-b7df-4aa6-94e9-14f04fe50077"/>

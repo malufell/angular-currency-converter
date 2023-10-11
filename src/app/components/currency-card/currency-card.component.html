@@ -1,0 +1,46 @@
+<section class="card">
+  <h2 class="card__title">
+    {{ currencyDetails.name }}
+  </h2>
+
+  <div *ngIf="isLoading" class="card__loader">
+    <img src="/assets/loader.svg" alt="carregamento das informações" />
+  </div>
+
+  <div
+    *ngIf="currencyDetails.bid && currencyDetails.create_date; else errorBlock"
+  >
+    <p
+      class="card__value"
+      [ngClass]="
+        'card__value' + getModifierClassForCurrencyValue(currencyDetails.bid)
+      "
+    >
+      {{ currencyDetails.bid | currency: 'BRL' : 'symbol' : '1.2-2' : 'pt-BR' }}
+    </p>
+
+    <div class="card__info">
+      <div class="card__variation">
+        <p class="card__info__label">Variação (%)</p>
+        <p class="card__info__content">
+          {{ currencyDetails.pctChange | number: '1.2-2' : 'pt' }}
+        </p>
+      </div>
+      <div class="card__last-updated">
+        <p class="card__info__label">Atualizado</p>
+        <p class="card__info__content">
+          {{ getCurrencyLastUpdated(currencyDetails.create_date) }}
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <ng-template #errorBlock>
+    <div class="card__error">
+      <p class="card__error__text">Algo deu errado</p>
+      <button type="button" class="card__error__action" (click)="reload.emit()">
+        RECARREGAR
+      </button>
+    </div>
+  </ng-template>
+</section>

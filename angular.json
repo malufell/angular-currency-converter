@@ -17,7 +17,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/currency-converter",
+            "baseHref": "https://malufell.github.io/angular-currency-converter/",
+            "outputPath": "docs",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -29,6 +30,8 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "https://malufell.github.io/angular-currency-converter/",
+              "outputPath": "docs",
               "budgets": [
                 {
                   "type": "initial",

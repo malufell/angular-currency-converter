@@ -16,7 +16,7 @@ Uma aplicação que exibe a conversão de moedas para real brasilleiro (BRL), co
 
 ## 🧭 Como executar o projeto localmente
 
-Fique atento aos pré-requisitos que devem estar instalados na sua máquina:
+Atenção aos pré-requisitos que devem estar instalados na sua máquina:
 
 - **Node.js**, download disponível [aqui](https://nodejs.org/en)
 - **GIT**, disponível para donwload [aqui](https://git-scm.com/)
@@ -33,8 +33,14 @@ Fique atento aos pré-requisitos que devem estar instalados na sua máquina:
 ### Comandos úteis:
 
 - Compilar o Projeto: `ng build`
-- Executar Testes: `ng test`
 - Ajuda do Angular CLI: `ng help`
+- Executar Testes: `ng test`
+
+Ao rodar os testes unitários, uma nova janela do navegador será aberta com o resultado, exemplo:
+
+<img width="300" src="https://github.com/malufell/angular-currency-converter/assets/62160705/33c7c414-a6ee-4510-b880-2dad9e01bfe9"/>
+
+
 
 </br>
 

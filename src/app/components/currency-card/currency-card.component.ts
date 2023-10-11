@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 
-import { Currency } from '../../currency';
+import { Currency } from '../../models/currency';
 
 @Component({
   selector: 'app-currency-card',

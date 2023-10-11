@@ -4,7 +4,7 @@ import { Observable, of } from 'rxjs';
 import { catchError, map, tap } from 'rxjs/operators';
 
 import { CacheService } from './cache.service';
-import { Currency } from '../currency';
+import { Currency } from '../models/currency';
 import { environment } from 'src/environments/environment';
 
 @Injectable({

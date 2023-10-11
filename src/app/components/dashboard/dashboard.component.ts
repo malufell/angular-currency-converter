@@ -3,7 +3,10 @@ import { interval } from 'rxjs';
 import { catchError, switchMap } from 'rxjs/operators';
 
 import { CurrencyService } from '../../services/currency.service';
-import { CURRENCIES_MAPPER_INITIAL_STATE, Currency } from '../../currency';
+import {
+  CURRENCIES_MAPPER_INITIAL_STATE,
+  Currency,
+} from '../../models/currency';
 
 @Component({
   selector: 'app-dashboard',
